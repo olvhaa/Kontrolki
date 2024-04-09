@@ -190,6 +190,8 @@ btnRandom2.setOnAction(event ->{
             colorRec.setStroke(color.invert());
 
           lblColor.setText("#" + String.valueOf(cpColor.getValue()).substring(2,8));
+
+
         });
     }
 
